@@ -1,0 +1,1263 @@
+Windows PowerShell
+Copyright (C) 2016 Microsoft Corporation. All rights reserved.
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32>     Copyright 2012-2015 Vidar Holen
+Copyright : The term 'Copyright' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     Copyright 2012-2015 Vidar Holen
++     ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Copyright:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     This file is part of ShellCheck.
+This : The term 'This' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     This file is part of ShellCheck.
++     ~~~~
+    + CategoryInfo          : ObjectNotFound: (This:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     http://www.vidarholen.net/contents/shellcheck
+http://www.vidarholen.net/contents/shellcheck : The term 'http://www.vidarholen.net/contents/shellcheck' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the
+path is correct and try again.
+At line:1 char:5
++     http://www.vidarholen.net/contents/shellcheck
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (http://www.vida...ents/shellcheck:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     ShellCheck is free software: you can redistribute it and/or modify
+ShellCheck : The term 'ShellCheck' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     ShellCheck is free software: you can redistribute it and/or modif ...
++     ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (ShellCheck:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     it under the terms of the GNU General Public License as published by
+It : Cannot process argument transformation on parameter 'test'. Cannot convert the "the" value of type "System.String" to type "System.Management.Automation.ScriptBlock".
+At line:1 char:14
++     it under the terms of the GNU General Public License as published ...
++              ~~~
+    + CategoryInfo          : InvalidData: (:) [It], ParameterBindingArgumentTransformationException
+    + FullyQualifiedErrorId : ParameterArgumentTransformationError,It
+
+PS C:\WINDOWS\system32>     the Free Software Foundation, either version 3 of the License, or
+the : The term 'the' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     the Free Software Foundation, either version 3 of the License, or
++     ~~~
+    + CategoryInfo          : ObjectNotFound: (the:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     (at your option) any later version.
+At line:1 char:22
++     (at your option) any later version.
++                      ~~~
+Unexpected token 'any' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\WINDOWS\system32>     ShellCheck is distributed in the hope that it will be useful,
+>>     but WITHOUT ANY WARRANTY; without even the implied warranty of
+ShellCheck : The term 'ShellCheck' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     ShellCheck is distributed in the hope that it will be useful,
++     ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (ShellCheck:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+without : The term 'without' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:2 char:31
++     but WITHOUT ANY WARRANTY; without even the implied warranty of
++                               ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (without:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+MERCHANTABILITY : The term 'MERCHANTABILITY' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
++     ~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (MERCHANTABILITY:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     GNU General Public License for more details.
+GNU : The term 'GNU' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     GNU General Public License for more details.
++     ~~~
+    + CategoryInfo          : ObjectNotFound: (GNU:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     You should have received a copy of the GNU General Public License
+You : The term 'You' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     You should have received a copy of the GNU General Public License
++     ~~~
+    + CategoryInfo          : ObjectNotFound: (You:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+At line:1 char:43
++     along with this program.  If not, see <http://www.gnu.org/license ...
++                                           ~
+The '<' operator is reserved for future use.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : RedirectionNotSupported
+
+PS C:\WINDOWS\system32> -}
+At line:1 char:2
++ -}
++  ~
+Missing expression after unary operator '-'.
+At line:1 char:2
++ -}
++  ~
+Unexpected token '}' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\WINDOWS\system32> module ShellCheck.ASTLib where
+Get-Module : A positional parameter cannot be found that accepts argument 'where'.
+At line:1 char:1
++ module ShellCheck.ASTLib where
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Module], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetModuleCommand
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> import ShellCheck.AST
+import : The term 'import' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ import ShellCheck.AST
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (import:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> import Control.Monad.Writer
+import : The term 'import' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ import Control.Monad.Writer
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (import:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32> import Control.Monad
+import : The term 'import' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ import Control.Monad
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (import:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32> import Data.Functor
+import : The term 'import' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ import Data.Functor
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (import:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32> import Data.List
+import : The term 'import' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ import Data.List
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (import:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32> import Data.Maybe
+import : The term 'import' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ import Data.Maybe
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (import:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> -- Is this a type of loop?
+At line:1 char:3
++ -- Is this a type of loop?
++   ~
+Missing expression after unary operator '--'.
+At line:1 char:4
++ -- Is this a type of loop?
++    ~~
+Unexpected token 'Is' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\WINDOWS\system32> isLoop t = case t of
+isLoop : The term 'isLoop' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ isLoop t = case t of
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (isLoop:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>         T_WhileExpression {} -> True
+T_WhileExpression : The term 'T_WhileExpression' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:9
++         T_WhileExpression {} -> True
++         ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_WhileExpression:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>         T_UntilExpression {} -> True
+T_UntilExpression : The term 'T_UntilExpression' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:9
++         T_UntilExpression {} -> True
++         ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_UntilExpression:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>         T_ForIn {} -> True
+T_ForIn : The term 'T_ForIn' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:9
++         T_ForIn {} -> True
++         ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_ForIn:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>         T_ForArithmetic {} -> True
+T_ForArithmetic : The term 'T_ForArithmetic' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:9
++         T_ForArithmetic {} -> True
++         ~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_ForArithmetic:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>         T_SelectIn {}  -> True
+T_SelectIn : The term 'T_SelectIn' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:9
++         T_SelectIn {}  -> True
++         ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_SelectIn:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>         _ -> False
+_ : The term '_' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:9
++         _ -> False
++         ~
+    + CategoryInfo          : ObjectNotFound: (_:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> -- Will this split into multiple words when used as an argument?
+At line:1 char:3
++ -- Will this split into multiple words when used as an argument?
++   ~
+Missing expression after unary operator '--'.
+At line:1 char:4
++ -- Will this split into multiple words when used as an argument?
++    ~~~~
+Unexpected token 'Will' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\WINDOWS\system32> willSplit x =
+willSplit : The term 'willSplit' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ willSplit x =
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (willSplit:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>   case x of
+case : The term 'case' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:3
++   case x of
++   ~~~~
+    + CategoryInfo          : ObjectNotFound: (case:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     T_DollarBraced {} -> True
+T_DollarBraced : The term 'T_DollarBraced' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     T_DollarBraced {} -> True
++     ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_DollarBraced:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     T_DollarExpansion {} -> True
+T_DollarExpansion : The term 'T_DollarExpansion' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     T_DollarExpansion {} -> True
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_DollarExpansion:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     T_Backticked {} -> True
+T_Backticked : The term 'T_Backticked' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     T_Backticked {} -> True
++     ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_Backticked:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     T_BraceExpansion {} -> True
+T_BraceExpansion : The term 'T_BraceExpansion' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     T_BraceExpansion {} -> True
++     ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_BraceExpansion:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     T_Glob {} -> True
+T_Glob : The term 'T_Glob' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     T_Glob {} -> True
++     ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_Glob:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     T_Extglob {} -> True
+T_Extglob : The term 'T_Extglob' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     T_Extglob {} -> True
++     ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_Extglob:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     T_NormalWord _ l -> any willSplit l
+T_NormalWord : The term 'T_NormalWord' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     T_NormalWord _ l -> any willSplit l
++     ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_NormalWord:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     _ -> False
+_ : The term '_' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     _ -> False
++     ~
+    + CategoryInfo          : ObjectNotFound: (_:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> isGlob T_Extglob {} = True
+isGlob : The term 'isGlob' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ isGlob T_Extglob {} = True
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (isGlob:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32> isGlob T_Glob {} = True
+isGlob : The term 'isGlob' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ isGlob T_Glob {} = True
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (isGlob:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32> isGlob (T_NormalWord _ l) = any isGlob l
+T_NormalWord : The term 'T_NormalWord' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:9
++ isGlob (T_NormalWord _ l) = any isGlob l
++         ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_NormalWord:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32> isGlob _ = False
+isGlob : The term 'isGlob' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ isGlob _ = False
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (isGlob:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> -- Is this shell word a constant?
+At line:1 char:3
++ -- Is this shell word a constant?
++   ~
+Missing expression after unary operator '--'.
+At line:1 char:4
++ -- Is this shell word a constant?
++    ~~
+Unexpected token 'Is' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\WINDOWS\system32> isConstant token =
+isConstant : The term 'isConstant' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ isConstant token =
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (isConstant:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     case token of
+case : The term 'case' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     case token of
++     ~~~~
+    + CategoryInfo          : ObjectNotFound: (case:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>         -- This ignores some cases like ~"foo":
+At line:1 char:11
++         -- This ignores some cases like ~"foo":
++           ~
+Missing expression after unary operator '--'.
+At line:1 char:12
++         -- This ignores some cases like ~"foo":
++            ~~~~
+Unexpected token 'This' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\WINDOWS\system32>         T_NormalWord _ (T_Literal _ ('~':_) : _)  -> False
+At line:1 char:41
++         T_NormalWord _ (T_Literal _ ('~':_) : _)  -> False
++                                         ~~
+Unexpected token ':_' in expression or statement.
+At line:1 char:41
++         T_NormalWord _ (T_Literal _ ('~':_) : _)  -> False
++                                         ~
+Missing closing ')' in expression.
+At line:1 char:48
++         T_NormalWord _ (T_Literal _ ('~':_) : _)  -> False
++                                                ~
+Unexpected token ')' in expression or statement.
+At line:1 char:52
++         T_NormalWord _ (T_Literal _ ('~':_) : _)  -> False
++                                                    ~
+Missing expression after unary operator '-'.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\WINDOWS\system32>         T_NormalWord _ l   -> all isConstant l
+T_NormalWord : The term 'T_NormalWord' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:9
++         T_NormalWord _ l   -> all isConstant l
++         ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_NormalWord:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>         T_DoubleQuoted _ l -> all isConstant l
+T_DoubleQuoted : The term 'T_DoubleQuoted' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:9
++         T_DoubleQuoted _ l -> all isConstant l
++         ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_DoubleQuoted:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>         T_SingleQuoted _ _ -> True
+T_SingleQuoted : The term 'T_SingleQuoted' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:9
++         T_SingleQuoted _ _ -> True
++         ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_SingleQuoted:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>         T_Literal _ _ -> True
+T_Literal : The term 'T_Literal' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:9
++         T_Literal _ _ -> True
++         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_Literal:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>         _ -> False
+_ : The term '_' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:9
++         _ -> False
++         ~
+    + CategoryInfo          : ObjectNotFound: (_:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> -- Is this an empty literal?
+At line:1 char:3
++ -- Is this an empty literal?
++   ~
+Missing expression after unary operator '--'.
+At line:1 char:4
++ -- Is this an empty literal?
++    ~~
+Unexpected token 'Is' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\WINDOWS\system32> isEmpty token =
+isEmpty : The term 'isEmpty' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ isEmpty token =
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (isEmpty:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     case token of
+case : The term 'case' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     case token of
++     ~~~~
+    + CategoryInfo          : ObjectNotFound: (case:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>         T_NormalWord _ l   -> all isEmpty l
+T_NormalWord : The term 'T_NormalWord' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:9
++         T_NormalWord _ l   -> all isEmpty l
++         ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_NormalWord:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>         T_DoubleQuoted _ l -> all isEmpty l
+T_DoubleQuoted : The term 'T_DoubleQuoted' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:9
++         T_DoubleQuoted _ l -> all isEmpty l
++         ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_DoubleQuoted:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>         T_SingleQuoted _ "" -> True
+T_SingleQuoted : The term 'T_SingleQuoted' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:9
++         T_SingleQuoted _ "" -> True
++         ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_SingleQuoted:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>         T_Literal _ "" -> True
+T_Literal : The term 'T_Literal' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:9
++         T_Literal _ "" -> True
++         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_Literal:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>         _ -> False
+_ : The term '_' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:9
++         _ -> False
++         ~
+    + CategoryInfo          : ObjectNotFound: (_:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> -- Quick&lazy oversimplification of commands, throwing away details
+At line:1 char:3
++ -- Quick&lazy oversimplification of commands, throwing away details
++   ~
+Missing expression after unary operator '--'.
+At line:1 char:4
++ -- Quick&lazy oversimplification of commands, throwing away details
++    ~~~~~
+Unexpected token 'Quick' in expression or statement.
+At line:1 char:9
++ -- Quick&lazy oversimplification of commands, throwing away details
++         ~
+The ampersand (&) character is not allowed. The & operator is reserved for future use; wrap an ampersand in double quotation marks ("&") to pass it as part of a string.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\WINDOWS\system32> -- and returning a list like  ["find", ".", "-name", "${VAR}*" ].
+At line:1 char:3
++ -- and returning a list like  ["find", ".", "-name", "${VAR}*" ].
++   ~
+Missing expression after unary operator '--'.
+At line:1 char:4
++ -- and returning a list like  ["find", ".", "-name", "${VAR}*" ].
++    ~~~
+Unexpected token 'and' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\WINDOWS\system32> oversimplify token =
+oversimplify : The term 'oversimplify' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ oversimplify token =
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (oversimplify:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     case token of
+case : The term 'case' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     case token of
++     ~~~~
+    + CategoryInfo          : ObjectNotFound: (case:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>         (T_NormalWord _ l) -> [concat (concatMap oversimplify l)]
+At line:1 char:29
++         (T_NormalWord _ l) -> [concat (concatMap oversimplify l)]
++                             ~
+You must provide a value expression following the '-' operator.
+At line:1 char:39
++         (T_NormalWord _ l) -> [concat (concatMap oversimplify l)]
++                                       ~
+Unexpected token '(' in expression or statement.
+At line:1 char:65
++         (T_NormalWord _ l) -> [concat (concatMap oversimplify l)]
++                                                                 ~
+Unexpected token ']' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+
+PS C:\WINDOWS\system32>         (T_DoubleQuoted _ l) -> [concat (concatMap oversimplify l)]
+At line:1 char:31
++         (T_DoubleQuoted _ l) -> [concat (concatMap oversimplify l)]
++                               ~
+You must provide a value expression following the '-' operator.
+At line:1 char:41
++         (T_DoubleQuoted _ l) -> [concat (concatMap oversimplify l)]
++                                         ~
+Unexpected token '(' in expression or statement.
+At line:1 char:67
++         (T_DoubleQuoted _ l) -> [concat (concatMap oversimplify l)]
++                                                                   ~
+Unexpected token ']' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+
+PS C:\WINDOWS\system32>         (T_SingleQuoted _ s) -> [s]
+At line:1 char:31
++         (T_SingleQuoted _ s) -> [s]
++                               ~
+You must provide a value expression following the '-' operator.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+
+PS C:\WINDOWS\system32>         (T_DollarBraced _ _) -> ["${VAR}"]
+At line:1 char:31
++         (T_DollarBraced _ _) -> ["${VAR}"]
++                               ~
+You must provide a value expression following the '-' operator.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+
+PS C:\WINDOWS\system32>         (T_DollarArithmetic _ _) -> ["${VAR}"]
+At line:1 char:35
++         (T_DollarArithmetic _ _) -> ["${VAR}"]
++                                   ~
+You must provide a value expression following the '-' operator.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+
+PS C:\WINDOWS\system32>         (T_DollarExpansion _ _) -> ["${VAR}"]
+At line:1 char:34
++         (T_DollarExpansion _ _) -> ["${VAR}"]
++                                  ~
+You must provide a value expression following the '-' operator.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+
+PS C:\WINDOWS\system32>         (T_Backticked _ _) -> ["${VAR}"]
+At line:1 char:29
++         (T_Backticked _ _) -> ["${VAR}"]
++                             ~
+You must provide a value expression following the '-' operator.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+
+PS C:\WINDOWS\system32>         (T_Glob _ s) -> [s]
+At line:1 char:23
++         (T_Glob _ s) -> [s]
++                       ~
+You must provide a value expression following the '-' operator.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+
+PS C:\WINDOWS\system32>         (T_Pipeline _ _ [x]) -> oversimplify x
+At line:1 char:31
++         (T_Pipeline _ _ [x]) -> oversimplify x
++                               ~
+You must provide a value expression following the '-' operator.
+At line:1 char:46
++         (T_Pipeline _ _ [x]) -> oversimplify x
++                                              ~
+Unexpected token 'x' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+
+PS C:\WINDOWS\system32>         (T_Literal _ x) -> [x]
+At line:1 char:26
++         (T_Literal _ x) -> [x]
++                          ~
+You must provide a value expression following the '-' operator.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+
+PS C:\WINDOWS\system32>         (T_ParamSubSpecialChar _ x) -> [x]
+At line:1 char:38
++         (T_ParamSubSpecialChar _ x) -> [x]
++                                      ~
+You must provide a value expression following the '-' operator.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+
+PS C:\WINDOWS\system32>         (T_SimpleCommand _ vars words) -> concatMap oversimplify words
+At line:1 char:41
++         (T_SimpleCommand _ vars words) -> concatMap oversimplify word ...
++                                         ~
+You must provide a value expression following the '-' operator.
+At line:1 char:53
++ ...        (T_SimpleCommand _ vars words) -> concatMap oversimplify words
++                                                        ~~~~~~~~~~~~
+Unexpected token 'oversimplify' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+
+PS C:\WINDOWS\system32>         (T_Redirecting _ _ foo) -> oversimplify foo
+At line:1 char:34
++         (T_Redirecting _ _ foo) -> oversimplify foo
++                                  ~
+You must provide a value expression following the '-' operator.
+At line:1 char:49
++         (T_Redirecting _ _ foo) -> oversimplify foo
++                                                 ~~~
+Unexpected token 'foo' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+
+PS C:\WINDOWS\system32>         (T_DollarSingleQuoted _ s) -> [s]
+At line:1 char:37
++         (T_DollarSingleQuoted _ s) -> [s]
++                                     ~
+You must provide a value expression following the '-' operator.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+
+PS C:\WINDOWS\system32>         (T_Annotation _ _ s) -> oversimplify s
+At line:1 char:31
++         (T_Annotation _ _ s) -> oversimplify s
++                               ~
+You must provide a value expression following the '-' operator.
+At line:1 char:46
++         (T_Annotation _ _ s) -> oversimplify s
++                                              ~
+Unexpected token 's' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+
+PS C:\WINDOWS\system32>         -- Workaround for let "foo = bar" parsing
+At line:1 char:11
++         -- Workaround for let "foo = bar" parsing
++           ~
+Missing expression after unary operator '--'.
+At line:1 char:12
++         -- Workaround for let "foo = bar" parsing
++            ~~~~~~~~~~
+Unexpected token 'Workaround' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\WINDOWS\system32>         (TA_Sequence _ [TA_Expansion _ v]) -> concatMap oversimplify v
+At line:1 char:45
++         (TA_Sequence _ [TA_Expansion _ v]) -> concatMap oversimplify  ...
++                                             ~
+You must provide a value expression following the '-' operator.
+At line:1 char:57
++ ...        (TA_Sequence _ [TA_Expansion _ v]) -> concatMap oversimplify v
++                                                            ~~~~~~~~~~~~
+Unexpected token 'oversimplify' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+
+PS C:\WINDOWS\system32>         _ -> []
+_ : The term '_' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:9
++         _ -> []
++         ~
+    + CategoryInfo          : ObjectNotFound: (_:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> -- Turn a SimpleCommand foo -avz --bar=baz into args "a", "v", "z", "bar",
+>> -- each in a tuple of (token, stringFlag). Non-flag arguments are added with
+At line:1 char:3
++ -- Turn a SimpleCommand foo -avz --bar=baz into args "a", "v", "z", " ...
++   ~
+Missing expression after unary operator '--'.
+At line:1 char:4
++ -- Turn a SimpleCommand foo -avz --bar=baz into args "a", "v", "z", " ...
++    ~~~~
+Unexpected token 'Turn' in expression or statement.
+At line:1 char:75
++ ... rn a SimpleCommand foo -avz --bar=baz into args "a", "v", "z", "bar",
++                                                                          ~
+Missing expression after ',' in pipeline element.
+At line:2 char:29
++ -- each in a tuple of (token, stringFlag). Non-flag arguments are add ...
++                             ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\WINDOWS\system32> -- stringFlag == "".
+At line:1 char:3
++ -- stringFlag == "".
++   ~
+Missing expression after unary operator '--'.
+At line:1 char:4
++ -- stringFlag == "".
++    ~~~~~~~~~~
+Unexpected token 'stringFlag' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\WINDOWS\system32> getFlagsUntil stopCondition (T_SimpleCommand _ _ (_:args)) =
+_:args : The term '_:args' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:51
++ getFlagsUntil stopCondition (T_SimpleCommand _ _ (_:args)) =
++                                                   ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_:args:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     let tokenAndText = map (\x -> (x, concat $ oversimplify x)) args
+At line:1 char:37
++     let tokenAndText = map (\x -> (x, concat $ oversimplify x)) args
++                                     ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingArgument
+
+PS C:\WINDOWS\system32>         (flagArgs, rest) = break (stopCondition . snd) tokenAndText
+At line:1 char:18
++         (flagArgs, rest) = break (stopCondition . snd) tokenAndText
++                  ~
+Missing argument in parameter list.
+At line:1 char:10
++         (flagArgs, rest) = break (stopCondition . snd) tokenAndText
++          ~~~~~~~~~~~~~~
+The assignment expression is not valid. The input to an assignment operator must be an object that is able to accept assignments, such as a variable or a property.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingArgument
+
+PS C:\WINDOWS\system32>     in
+The In command may only be used inside a Describe block.
+At C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Describe.ps1:125 char:9
++         throw "The $CommandName command may only be used inside a Des ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (The In command ...Describe block.:String) [], RuntimeException
+    + FullyQualifiedErrorId : The In command may only be used inside a Describe block.
+
+PS C:\WINDOWS\system32>         concatMap flag flagArgs ++ map (\(t, _) -> (t, "")) rest
+At line:1 char:44
++         concatMap flag flagArgs ++ map (\(t, _) -> (t, "")) rest
++                                            ~
+Missing argument in parameter list.
+At line:1 char:54
++         concatMap flag flagArgs ++ map (\(t, _) -> (t, "")) rest
++                                                      ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingArgument
+
+PS C:\WINDOWS\system32>   where
+
+cmdlet Where-Object at command pipeline position 1
+Supply values for the following parameters:
+Property: {-
+PS C:\WINDOWS\system32>     flag (x, '-':'-':arg) = [ (x, takeWhile (/= '=') arg) ]
+At line:1 char:12
++     flag (x, '-':'-':arg) = [ (x, takeWhile (/= '=') arg) ]
++            ~
+Missing argument in parameter list.
+At line:1 char:33
++     flag (x, '-':'-':arg) = [ (x, takeWhile (/= '=') arg) ]
++                                 ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingArgument
+
+PS C:\WINDOWS\system32>     flag (x, '-':args) = map (\v -> (x, [v])) args
+At line:1 char:12
++     flag (x, '-':args) = map (\v -> (x, [v])) args
++            ~
+Missing argument in parameter list.
+At line:1 char:39
++     flag (x, '-':args) = map (\v -> (x, [v])) args
++                                       ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingArgument
+
+PS C:\WINDOWS\system32>     flag (x, _) = [ (x, "") ]
+At line:1 char:12
++     flag (x, _) = [ (x, "") ]
++            ~
+Missing argument in parameter list.
+At line:1 char:23
++     flag (x, _) = [ (x, "") ]
++                       ~
+Missing argument in parameter list.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingArgument
+
+PS C:\WINDOWS\system32> getFlagsUntil _ _ = error "Internal shellcheck error, please report! (getFlags on non-command)"
+getFlagsUntil : The term 'getFlagsUntil' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ getFlagsUntil _ _ = error "Internal shellcheck error, please report!  ...
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (getFlagsUntil:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> -- Get all flags in a GNU way, up until --
+At line:1 char:3
++ -- Get all flags in a GNU way, up until --
++   ~
+Missing expression after unary operator '--'.
+At line:1 char:4
++ -- Get all flags in a GNU way, up until --
++    ~~~
+Unexpected token 'Get' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\WINDOWS\system32> getAllFlags = getFlagsUntil (== "--")
+== : The term '==' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:30
++ getAllFlags = getFlagsUntil (== "--")
++                              ~~
+    + CategoryInfo          : ObjectNotFound: (==:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32> -- Get all flags in a BSD way, up until first non-flag argument or --
+At line:1 char:3
++ -- Get all flags in a BSD way, up until first non-flag argument or --
++   ~
+Missing expression after unary operator '--'.
+At line:1 char:4
++ -- Get all flags in a BSD way, up until first non-flag argument or --
++    ~~~
+Unexpected token 'Get' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\WINDOWS\system32> getLeadingFlags = getFlagsUntil (\x -> x == "--" || (not $ "-" `isPrefixOf` x))
+At line:1 char:50
++ getLeadingFlags = getFlagsUntil (\x -> x == "--" || (not $ "-" `isPre ...
++                                                  ~~
+The token '||' is not a valid statement separator in this version.
+At line:1 char:53
++ ... Flags = getFlagsUntil (\x -> x == "--" || (not $ "-" `isPrefixOf` x))
++                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~
+Expressions are only allowed as the first element of a pipeline.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : InvalidEndOfLine
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> -- Check if a command has a flag.
+At line:1 char:3
++ -- Check if a command has a flag.
++   ~
+Missing expression after unary operator '--'.
+At line:1 char:4
++ -- Check if a command has a flag.
++    ~~~~~
+Unexpected token 'Check' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\WINDOWS\system32> hasFlag cmd str = str `elem` (map snd $ getAllFlags cmd)
+map : The term 'map' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:31
++ hasFlag cmd str = str `elem` (map snd $ getAllFlags cmd)
++                               ~~~
+    + CategoryInfo          : ObjectNotFound: (map:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> -- Is this token a word that starts with a dash?
+At line:1 char:3
++ -- Is this token a word that starts with a dash?
++   ~
+Missing expression after unary operator '--'.
+At line:1 char:4
++ -- Is this token a word that starts with a dash?
++    ~~
+Unexpected token 'Is' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\WINDOWS\system32> isFlag token =
+isFlag : The term 'isFlag' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ isFlag token =
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (isFlag:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     case getWordParts token of
+case : The term 'case' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     case getWordParts token of
++     ~~~~
+    + CategoryInfo          : ObjectNotFound: (case:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>         T_Literal _ ('-':_) : _ -> True
+At line:1 char:25
++         T_Literal _ ('-':_) : _ -> True
++                         ~~
+Unexpected token ':_' in expression or statement.
+At line:1 char:25
++         T_Literal _ ('-':_) : _ -> True
++                         ~
+Missing closing ')' in expression.
+At line:1 char:27
++         T_Literal _ ('-':_) : _ -> True
++                           ~
+Unexpected token ')' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\WINDOWS\system32>         _ -> False
+_ : The term '_' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:9
++         _ -> False
++         ~
+    + CategoryInfo          : ObjectNotFound: (_:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> -- Is this token a flag where the - is unquoted?
+At line:1 char:3
++ -- Is this token a flag where the - is unquoted?
++   ~
+Missing expression after unary operator '--'.
+At line:1 char:4
++ -- Is this token a flag where the - is unquoted?
++    ~~
+Unexpected token 'Is' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\WINDOWS\system32> isUnquotedFlag token = fromMaybe False $ do
+isUnquotedFlag : The term 'isUnquotedFlag' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ isUnquotedFlag token = fromMaybe False $ do
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (isUnquotedFlag:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     str <- getLeadingUnquotedString token
+At line:1 char:9
++     str <- getLeadingUnquotedString token
++         ~
+The '<' operator is reserved for future use.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : RedirectionNotSupported
+
+PS C:\WINDOWS\system32>     return $ "-" `isPrefixOf` str
+$ : The term '$' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:12
++     return $ "-" `isPrefixOf` str
++            ~
+    + CategoryInfo          : ObjectNotFound: ($:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> -- Given a T_DollarBraced, return a simplified version of the string contents.
+At line:1 char:3
++ -- Given a T_DollarBraced, return a simplified version of the string  ...
++   ~
+Missing expression after unary operator '--'.
+At line:1 char:4
++ -- Given a T_DollarBraced, return a simplified version of the string  ...
++    ~~~~~
+Unexpected token 'Given' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\WINDOWS\system32> bracedString (T_DollarBraced _ l) = concat $ oversimplify l
+T_DollarBraced : The term 'T_DollarBraced' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:15
++ bracedString (T_DollarBraced _ l) = concat $ oversimplify l
++               ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_DollarBraced:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32> bracedString _ = error "Internal shellcheck error, please report! (bracedString on non-variable)"
+bracedString : The term 'bracedString' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ bracedString _ = error "Internal shellcheck error, please report! (br ...
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (bracedString:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> -- Is this an expansion of multiple items of an array?
+At line:1 char:3
++ -- Is this an expansion of multiple items of an array?
++   ~
+Missing expression after unary operator '--'.
+At line:1 char:4
++ -- Is this an expansion of multiple items of an array?
++    ~~
+Unexpected token 'Is' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\WINDOWS\system32> isArrayExpansion t@(T_DollarBraced _ _) =
+T_DollarBraced : The term 'T_DollarBraced' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:21
++ isArrayExpansion t@(T_DollarBraced _ _) =
++                     ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_DollarBraced:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     let string = bracedString t in
+let : The term 'let' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     let string = bracedString t in
++     ~~~
+    + CategoryInfo          : ObjectNotFound: (let:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>         "@" `isPrefixOf` string ||
+At line:1 char:13
++         "@" `isPrefixOf` string ||
++             ~~~~~~~~~~~~~~~~~~~
+Unexpected token '`isPrefixOf` string' in expression or statement.
+At line:1 char:33
++         "@" `isPrefixOf` string ||
++                                 ~~
+The token '||' is not a valid statement separator in this version.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\WINDOWS\system32>             not ("#" `isPrefixOf` string) && "[@]" `isInfixOf` string
+At line:1 char:22
++             not ("#" `isPrefixOf` string) && "[@]" `isInfixOf` string
++                      ~~~~~~~~~~~~~~~~~~~
+Unexpected token '`isPrefixOf` string' in expression or statement.
+At line:1 char:21
++             not ("#" `isPrefixOf` string) && "[@]" `isInfixOf` string
++                     ~
+Missing closing ')' in expression.
+At line:1 char:41
++             not ("#" `isPrefixOf` string) && "[@]" `isInfixOf` string
++                                         ~
+Unexpected token ')' in expression or statement.
+At line:1 char:43
++             not ("#" `isPrefixOf` string) && "[@]" `isInfixOf` string
++                                           ~~
+The token '&&' is not a valid statement separator in this version.
+At line:1 char:52
++             not ("#" `isPrefixOf` string) && "[@]" `isInfixOf` string
++                                                    ~~~~~~~~~~~~~~~~~~
+Unexpected token '`isInfixOf` string' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\WINDOWS\system32> isArrayExpansion _ = False
+isArrayExpansion : The term 'isArrayExpansion' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ isArrayExpansion _ = False
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (isArrayExpansion:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> -- Is it possible that this arg becomes multiple args?
+At line:1 char:3
++ -- Is it possible that this arg becomes multiple args?
++   ~
+Missing expression after unary operator '--'.
+At line:1 char:4
++ -- Is it possible that this arg becomes multiple args?
++    ~~
+Unexpected token 'Is' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\WINDOWS\system32> mayBecomeMultipleArgs t = willBecomeMultipleArgs t || f t
+At line:1 char:52
++ mayBecomeMultipleArgs t = willBecomeMultipleArgs t || f t
++                                                    ~~
+The token '||' is not a valid statement separator in this version.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : InvalidEndOfLine
+
+PS C:\WINDOWS\system32>   where
+
+cmdlet Where-Object at command pipeline position 1
+Supply values for the following parameters:
+Property: +                                 ~
+PS C:\WINDOWS\system32>     f t@(T_DollarBraced _ _) =
+T_DollarBraced : The term 'T_DollarBraced' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:10
++     f t@(T_DollarBraced _ _) =
++          ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_DollarBraced:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>         let string = bracedString t in
+let : The term 'let' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:9
++         let string = bracedString t in
++         ~~~
+    + CategoryInfo          : ObjectNotFound: (let:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>             "!" `isPrefixOf` string
+At line:1 char:17
++             "!" `isPrefixOf` string
++                 ~~~~~~~~~~~~~~~~~~~
+Unexpected token '`isPrefixOf` string' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\WINDOWS\system32>     f (T_DoubleQuoted _ parts) = any f parts
+T_DoubleQuoted : The term 'T_DoubleQuoted' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:8
++     f (T_DoubleQuoted _ parts) = any f parts
++        ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_DoubleQuoted:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     f (T_NormalWord _ parts) = any f parts
+T_NormalWord : The term 'T_NormalWord' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:8
++     f (T_NormalWord _ parts) = any f parts
++        ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (T_NormalWord:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>     f _ = False
+f : The term 'f' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:5
++     f _ = False
++     ~
+    + CategoryInfo          : ObjectNotFound: (f:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> -- Is it certain that this word will becomes multiple words?
+At line:1 char:3
++ -- Is it certain that this word will becomes multiple words?
++   ~
+Missing expression after unary operator '--'.
+At line:1 char:4
++ -- Is it certain that this word will becomes multiple words?
++    ~~
+Unexpected token 'Is' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\WINDOWS\system32> willBecomeMultipleArgs t = willConcatInAssignment t || f t
+At line:1 char:53
++ willBecomeMultipleArgs t = willConcatInAssignment t || f t
++                                                     ~~
+The token '||' is not a valid statement separator in this version.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : InvalidEndOfLine
+
+PS C:\WINDOWS\system32>   where
+
+cmdlet Where-Object at command pipeline position 1
+Supply values for the following parameters:
+Property:
